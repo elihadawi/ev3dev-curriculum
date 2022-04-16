@@ -13,9 +13,12 @@ The LEGO_NUMBER for your team is saved in the mqtt_remote_method_calls.py file. 
 it to spy on a another team for fun go ahead.  I recommend not committing that change though.
 """
 
-
+import sys
 import tkinter
 from tkinter import ttk
+
+sys.path.insert(0,C:\Users\chris\PycharmProjects\ev3dev-curriculum\libs\mqtt_remote_method_calls')
+
 
 import mqtt_remote_method_calls as com
 
